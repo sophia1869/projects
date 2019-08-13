@@ -1,0 +1,12 @@
+
+1 make input elements that take room and username
+
+2 submit the room info to the server to initiate the connection (10:15)
+
+3 once logged in, send message to server. Try multiple messages and test. (10:29)
+
+4 print the history messages in a div group. Need to make 2 div group and update the second one and append it to the first one. (11:00)
+
+5 remove the username and room info input elements. Use JSON.parse to output clean history messages in the history box.  (11:20)
+
+6 adjust the size and look.

@@ -1,0 +1,31 @@
+
+body{
+    background-image: url("horsefire.gif"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    height: 400px;
+    position: relative;
+    background-color: black;
+}
+.historybox{
+    color: red;
+    background-color: black;
+    font-style: italic;
+    font-size: x-large;
+    
+}
+
+.motherbox{
+    position: absolute;
+    right: 0;
+    top:0px;
+    width: 500px;
+    
+    height:600px;
+    overflow-y: scroll;
+}
+
+.dia{
+    height: 100px;
+}

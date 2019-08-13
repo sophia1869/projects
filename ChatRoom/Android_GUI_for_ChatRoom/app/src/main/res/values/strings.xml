@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chat Room</string>
+    <string name="userBox">username</string>
+    <string name="roombox">room</string>
+    <string name="joinBut">join</string>
+    <string name="msgBox">msg</string>
+    <string name="submitBut">submit</string>
+</resources>

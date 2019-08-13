@@ -1,0 +1,22 @@
+
+body{
+    background-image: url("vol.gif"); 
+}
+.historybox{
+    color: brown;
+    background-color: lightblue;
+    font-style: italic;
+    font-size: x-large;
+    
+}
+
+.motherbox{
+    position: absolute;
+    right: 0;
+    top:0px;
+    width: 500px;
+    
+    height:600px;
+    overflow-y: scroll;
+}
+
