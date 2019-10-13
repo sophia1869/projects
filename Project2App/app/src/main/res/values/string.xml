@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="number_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    
+    <string-array name="goal_choices">
+        <item>Lose Weight</item>
+        <item>Maintain Weight</item>
+        <item>Gain Weight</item>
+    </string-array>
+    
+    <string-array name="activity_levels">
+        <item>Sedentary</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+        <item>Extremely Active</item>
+    </string-array>
+
+    <string-array name="weight_amount">
+        <item>1 pound</item>
+        <item>2 pounds</item>
+        <item>3 pounds</item>
+        <item>4 pounds</item>
+        <item>5 pounds</item>
+    </string-array>
+
+</resources>
