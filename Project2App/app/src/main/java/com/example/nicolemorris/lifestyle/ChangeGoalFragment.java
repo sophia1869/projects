@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -157,6 +158,14 @@ public class ChangeGoalFragment extends Fragment
 //                Intent  intent2Main = new Intent(getContext(), MainActivity.class);
 //                intent2Main.putExtra("choice", 2);
 //                this.startActivity(intent2Main);
+                FragmentTransaction fTrans = getActivity().getSupportFragmentManager().beginTransaction();
+                GoalsFragment gf = new GoalsFragment();
+                Bundle sentData = new Bundle();
+                sentData.putParcelable("user",mUser);
+                gf.setArguments(sentData);
+                fTrans.replace(R.id.fl_frag_ph_2,gf,"Goals");
+                fTrans.commit();
+
                 break;
             }
         }

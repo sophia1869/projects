@@ -2,28 +2,17 @@ package com.example.nicolemorris.lifestyle;
 
 import android.content.Context;
 import android.os.Bundle;
-
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-
-import com.example.nicolemorris.lifestyle.Model.ChoiceViewModel;
 
 public class BottomButtons extends Fragment
         implements View.OnClickListener {
 
     OnBottomDataPass mDataPasser;
     ImageButton profile_data, goals, bmi, hikes, weather, help;
-
-    ChoiceViewModel mChoiceViewModel;
-
-    int mChoice;
 
     //Callback interface
     public interface OnBottomDataPass{
@@ -73,80 +62,35 @@ public class BottomButtons extends Fragment
         switch (view.getId()) {
             case R.id.b_profile: {
                 mDataPasser.onBottomDataPass(9);
-                mChoice = 9;
-
-
-                // call database, save mChoice into ChoiceViewModel
-
-
-
                 break;
             }
 
             case R.id.b_goals: {
                 mDataPasser.onBottomDataPass(2);
-                mChoice = 2;
-
-
-                // call database, save mChoice into ChoiceViewModel
-
-
-
                 break;
             }
 
             case R.id.b_bmi: {
                 mDataPasser.onBottomDataPass(3);
-                mChoice = 3;
-
-
-                // call database, save mChoice into ChoiceViewModel
-
-
-
                 break;
             }
 
             case R.id.b_hikes: {
                 mDataPasser.onBottomDataPass(4);
-                mChoice = 4;
-
-
-                // call database, save mChoice into ChoiceViewModel
-
-
-
-
                 break;
             }
 
             case R.id.b_weather: {
                 mDataPasser.onBottomDataPass(5);
-                mChoice = 5;
-
-
-                // call database, save mChoice into ChoiceViewModel
-
-
-
-
                 break;
             }
 
             case R.id.b_help: {
                 mDataPasser.onBottomDataPass(6);
-                mChoice = 6;
-
-
-
-                // call database, save mChoice into ChoiceViewModel
-
-
                 break;
             }
 
 
         }
     }
-
 }

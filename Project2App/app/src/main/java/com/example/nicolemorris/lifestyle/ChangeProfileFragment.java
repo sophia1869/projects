@@ -58,7 +58,7 @@ public class ChangeProfileFragment extends Fragment
 
 
     User user;
-    //ChangeProfileOnDataPass userDataPasser;
+    ChangeProfileOnDataPass userDataPasser;
 
     DatePickerDialog picker;
 
@@ -76,20 +76,20 @@ public class ChangeProfileFragment extends Fragment
     ArrayAdapter<CharSequence> num_adapter;
     ArrayAdapter<CharSequence> gender_adapter;
 
-//    public interface ChangeProfileOnDataPass{
-//        public void onChangeProfileDataPass(User user, int choice);
-//    }
-//
-//    @Override
-//    public void onAttach(Context context) {
-//        super.onAttach(context);
-//
-//        try{
-//            userDataPasser = (ChangeProfileOnDataPass) context;
-//        }catch(ClassCastException e){
-//            throw new ClassCastException(context.toString() + " must implement ChangeProfileOnDataPass");
-//        }
-//    }
+    public interface ChangeProfileOnDataPass{
+        public void onChangeProfileDataPass(User user, int choice);
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+
+        try{
+            userDataPasser = (ChangeProfileOnDataPass) context;
+        }catch(ClassCastException e){
+            throw new ClassCastException(context.toString() + " must implement ChangeProfileOnDataPass");
+        }
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -256,7 +256,13 @@ public class ChangeProfileFragment extends Fragment
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.b_edit_pic: {
-                userDataPasser.onChangeProfileDataPass(user,8);
+                //userDataPasser.onChangeProfileDataPass(user,8);
+
+
+
+
+
+
                 break;
             }
             case R.id.b_save: {
@@ -270,7 +276,7 @@ public class ChangeProfileFragment extends Fragment
                 }
 
                 if(date == null){
-//                    age = user.getAge();
+                    age = user.getAge();
                     age = Integer.parseInt(etAge.getText().toString());
                 }
 
@@ -287,7 +293,10 @@ public class ChangeProfileFragment extends Fragment
                     saveUserProfile(user);
                 }
 
-                userDataPasser.onChangeProfileDataPass(user,9);
+                //userDataPasser.onChangeProfileDataPass(user,9);
+
+
+
                 break;
             }
             case R.id.b_birthday:{
