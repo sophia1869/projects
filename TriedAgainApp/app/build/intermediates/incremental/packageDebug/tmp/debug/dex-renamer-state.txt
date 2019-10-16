@@ -1,0 +1,4 @@
+#Wed Oct 16 11:13:38 MDT 2019
+base.0=/Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
