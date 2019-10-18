@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class NewUserActivity extends AppCompatActivity
         implements NameAgeFragment.NameAgeOnDataPass, PhysDetailsFragment.PhysOnDataPass,
         LocationFragment.LocationOnDataPass, ProfilePicFragment.ProfilePicOnDataPass,
-        ReviewFragment.ReviewOnDataPass, ChangeProfileFragment.ChangeProfileOnDataPass{
+        ReviewFragment.ReviewOnDataPass{
 
     int creation_step = 0;
     String name, city, state, sex, profile_image;
@@ -97,12 +97,12 @@ public class NewUserActivity extends AppCompatActivity
 
     }
 
-    @Override
-    public void onChangeProfileDataPass(User newUser, int choice) {
-        user = newUser;
-        creation_step = choice;
-        setView();
-    }
+//    @Override
+//    public void onChangeProfileDataPass(User newUser, int choice) {
+//        user = newUser;
+//        creation_step = choice;
+//        setView();
+//    }
 
     @Override
     public void onReviewDataPass() {

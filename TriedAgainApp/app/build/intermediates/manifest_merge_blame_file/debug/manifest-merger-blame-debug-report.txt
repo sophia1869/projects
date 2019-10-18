@@ -105,16 +105,23 @@
 58            android:value="@integer/google_play_services_version" />
 58-->[com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
 59
-60        <provider
-60-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
-61            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-61-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
-62            android:authorities="com.example.nicolemorris.lifestyle.lifecycle-process"
-62-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
-63            android:exported="false"
-63-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
-64            android:multiprocess="true" />
-64-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
-65    </application>
-66
-67</manifest>
+60        <service
+60-->[androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:25:9-27:40
+61            android:name="androidx.room.MultiInstanceInvalidationService"
+61-->[androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:26:13-74
+62            android:exported="false" />
+62-->[androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:27:13-37
+63
+64        <provider
+64-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+65            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+66            android:authorities="com.example.nicolemorris.lifestyle.lifecycle-process"
+66-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+67            android:exported="false"
+67-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+68            android:multiprocess="true" />
+68-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+69    </application>
+70
+71</manifest>

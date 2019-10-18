@@ -1,9 +1,16 @@
 package com.example.nicolemorris.lifestyle;
 
 import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import androidx.fragment.app.Fragment;
 
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,12 +19,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.nicolemorris.lifestyle.Model.User;
+import com.example.nicolemorris.lifestyle.Model.UserRepo;
+import com.example.nicolemorris.lifestyle.Model.UserViewModel;
+import com.example.nicolemorris.lifestyle.Room.UserTable;
+import com.google.android.gms.common.UserRecoverableException;
+
+import java.util.List;
+
+import static com.example.nicolemorris.lifestyle.MainActivity.db;
 
 public class GoalsFragment extends Fragment
         implements View.OnClickListener {
 
     User u;
-    GoalsOnDataPass mDataPasser;
+    //GoalsOnDataPass mDataPasser;
     Button bChangeGoal;
     TextView tvCalAmt, tvGoalTxt, tvGoalAmt, tvGoalHC;
 //    int user_weight = 72; //Weight of user
@@ -28,21 +43,23 @@ public class GoalsFragment extends Fragment
     int act_level; //0 = sedentary, 1 = light, 2 = moderate, 3 = very, 4 = extremely
     int weight_amt; //If goal to lose or gain weight, amount to lose or gain
 
-    //Callback interface
-    public interface GoalsOnDataPass{
-        public void onGoalsDataPass();
-    }
+    UserViewModel mUserViewModel;
 
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-
-        try{
-            mDataPasser = (GoalsOnDataPass) context;
-        }catch(ClassCastException e){
-            throw new ClassCastException(context.toString() + " must implement OnDataPass");
-        }
-    }
+//    //Callback interface
+//    public interface GoalsOnDataPass{
+//        public void onGoalsDataPass();
+//    }
+//
+//    @Override
+//    public void onAttach(Context context) {
+//        super.onAttach(context);
+//
+//        try{
+//            mDataPasser = (GoalsOnDataPass) context;
+//        }catch(ClassCastException e){
+//            throw new ClassCastException(context.toString() + " must implement OnDataPass");
+//        }
+//    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -51,14 +68,32 @@ public class GoalsFragment extends Fragment
 
         u = getArguments().getParcelable("user");
         //Get arguments
-        goal = getArguments().getInt("Goal");
-        act_level = getArguments().getInt("Act_Level");
-        weight_amt = getArguments().getInt("Amount");
+//        goal = getArguments().getInt("Goal");
+//        act_level = getArguments().getInt("Act_Level");
+//        weight_amt = getArguments().getInt("Amount");
 
 
-//        goal = u.getGoal();
-//        act_level = u.getAct_level();
-//        weight_amt = u.getWeight_amt();
+//        new AsyncTask<User, Void, Void>(){
+//            @Override
+//            protected Void doInBackground(User... users) {
+//
+//                    u = users[0];
+//                    List<UserTable> uts = db.userDao().getAll();
+//                    goal = uts.get(uts.size()-1).getGoal();
+//                    act_level = uts.get(uts.size()-1).getAct_level();
+//                    weight_amt = uts.get(uts.size()-1).getWeight_amt();
+//                    return null;
+//
+////                goal = users[0].getGoal();
+////                act_level = users[0].getAct_level();
+////                weight_amt = users[0].getWeight_amt();
+////                return null;
+//            }
+//        }.execute();
+
+        goal = u.getGoal();
+        act_level = u.getAct_level();
+        weight_amt = u.getWeight_amt();
 
         tvGoalTxt = view.findViewById(R.id.tv_goal_txt_d);
         tvGoalHC = view.findViewById(R.id.tv_goal_hc);
@@ -77,8 +112,28 @@ public class GoalsFragment extends Fragment
         bChangeGoal = view.findViewById(R.id.b_change_goal);
         bChangeGoal.setOnClickListener(this);
 
+        //Create the view model
+        mUserViewModel = ViewModelProviders.of(this).get(UserViewModel.class);
+        mUserViewModel.setContext(getContext());
+
+
+        //Set the observer
+        mUserViewModel.getData().observe(this,userObserver);
+
         return view;
     }
+
+    final Observer<User> userObserver  = new Observer<User>() {
+        @Override
+        public void onChanged(@Nullable final User userData) {
+            // Update the UI if this data variable changes
+            if(userData!=null) {
+                u = userData;
+//                tvCalAmt.setText(userData.getWeight_amt());
+//                tvGoalAmt.setText(userData.getWeight_amt());
+            }
+        }
+    };
 
     @Override
     public void onClick(View view) {
@@ -94,7 +149,15 @@ public class GoalsFragment extends Fragment
 //                    Toast.makeText(getContext(), "Please choose your goal", Toast.LENGTH_SHORT).show();
 //                    break;
 //                }
-                mDataPasser.onGoalsDataPass();
+//                mDataPasser.onGoalsDataPass();
+                FragmentTransaction fTrans = getActivity().getSupportFragmentManager().beginTransaction();
+                ChangeGoalFragment cgf = new ChangeGoalFragment();
+                Bundle sentData = new Bundle();
+                sentData.putParcelable("user",u);
+                cgf.setArguments(sentData);
+                fTrans.replace(R.id.fl_frag_ph_2,cgf,"Goals");
+                fTrans.commit();
+
                 break;
             }
         }
@@ -127,11 +190,14 @@ public class GoalsFragment extends Fragment
     private double calcBMR(){
         double bmr = 0.0;
 
-        if(u.getSex().equals("Male")){
-            bmr = 66 + (6.3 * u.getWeight()) + (12.9 * u.getHeight()) - (6.8 * u.getAge());
-        } else {
-            bmr = 655 + (4.3 * u.getWeight()) + (4.7 * u.getHeight()) - (4.7 * u.getAge());
+        if(u!=null){
+            if(u.getSex().equals("Male")){
+                bmr = 66 + (6.3 * u.getWeight()) + (12.9 * u.getHeight()) - (6.8 * u.getAge());
+            } else {
+                bmr = 655 + (4.3 * u.getWeight()) + (4.7 * u.getHeight()) - (4.7 * u.getAge());
+            }
         }
+
         return bmr;
     }
 

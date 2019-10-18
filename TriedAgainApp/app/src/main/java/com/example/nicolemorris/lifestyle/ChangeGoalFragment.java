@@ -157,6 +157,9 @@ public class ChangeGoalFragment extends Fragment
 //                Intent  intent2Main = new Intent(getContext(), MainActivity.class);
 //                intent2Main.putExtra("choice", 2);
 //                this.startActivity(intent2Main);
+
+                UserRepo.saveUserProfile(getContext(),mUser);
+
                 FragmentTransaction fTrans = getActivity().getSupportFragmentManager().beginTransaction();
                 GoalsFragment gf = new GoalsFragment();
                 Bundle sentData = new Bundle();

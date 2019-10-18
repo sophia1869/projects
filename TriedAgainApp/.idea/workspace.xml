@@ -5,14 +5,146 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b61c67d-d8d3-4099-9769-0ecdcc154efe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TriedAgainApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TriedAgainApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/UserTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/WeatherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/WeatherDataTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/App.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/Lifestyle_App.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/Project2App.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/Working_App.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/androidTest/java/com/example/nicolemorris/lifestyle/BottomButtonsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/androidTest/java/com/example/nicolemorris/lifestyle/ChoicesDesignedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/androidTest/java/com/example/nicolemorris/lifestyle/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/androidTest/java/com/example/nicolemorris/lifestyle/InstrumentedTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/androidTest/java/com/example/nicolemorris/lifestyle/ReviewFragmentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/Adapter/ProfileListAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/BmiFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/BottomButtons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeGoalFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeProfileFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/ChoicesDesignedFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/Database/DatabaseHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/GoalsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/HeaderFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/HelpFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/HomeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/LocationFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ChoiceRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ChoiceViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ListofProfileAndName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ProfilePicAndName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/Model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/NameAgeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/NewUserActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/PhysDetailsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/ProfileListFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/ProfilePicFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/ReviewFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/TitleFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/WeatherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/java/com/example/nicolemorris/lifestyle/WeatherViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/header_bmi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/header_help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/icon_bmi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/icon_goals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/icon_heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/icon_heart_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/icon_help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/icon_hikes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/icon_profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/icon_weather.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/no_pic_yet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/pic_profile_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/drawable/title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/font/aclonica.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/font/bad_script.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/font/bigelow_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/font/bigelowrules.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp-land/fragment_choices_designed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_bmi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_bottom_buttons.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_change_goal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_change_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_choices_designed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_goals.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_help.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_review.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout-sw600dp/fragment_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/activity_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/activity_new_user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_bmi.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_bottom_buttons.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_change_goal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_change_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_choices_designed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_goals.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_header.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_help.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_hiking.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_location.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_name_age.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_phys_details.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_profile_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_profile_list_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_profile_pic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_review.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_title.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/values-sw600dp/bool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/values/bool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/values/font_certs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/values/string.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/app/src/test/java/com/example/nicolemorris/lifestyle/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/header_help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project2App/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeGoalFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeGoalFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/GoalsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/GoalsFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ChoiceRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ChoiceRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ChoiceViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ChoiceViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/NewUserActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/NewUserActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,76 +168,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeProfileFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-431">
-              <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ProfileListFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/PhysDetailsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2148">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="364">
+              <caret line="300" column="51" selection-start-line="300" selection-start-column="51" selection-end-line="300" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1802#1803#0" expanded="true" />
-                <element signature="e#1836#1837#0" expanded="true" />
+                <element signature="e#5406#7665#0" expanded="true" />
+                <element signature="e#7664#7665#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ReviewFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/GoalsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChoicesDesignedFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/BmiFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="45" column="26" selection-start-line="42" selection-start-column="8" selection-end-line="45" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/BottomButtons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="-1857">
+              <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+              <folding>
+                <element signature="e#4696#5076#0" expanded="true" />
+                <element signature="e#5075#5076#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,27 +194,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeGoalFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+            <state relative-caret-position="160">
+              <caret line="104" column="48" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ProfilePicAndName.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="388">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
+              <folding>
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#1835#2491#0" expanded="true" />
+                <element signature="e#2490#2491#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>choice</find>
       <find>Choice</find>
+      <find>setFields</find>
+      <find>9</find>
+      <find>save</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,16 +241,23 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ChoiceViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ChoiceRepo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeGoalFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/NewUserActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/WeatherDao.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/DataBase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/UserTable.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/WeatherDataTable.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/UserDao.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserRepo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeProfileFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeGoalFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/GoalsFragment.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="28" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -187,6 +291,20 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="lifestyle" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TriedAgainApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="lifestyle" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Room" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TriedAgainApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="lifestyle" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="WeatherFragment.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -301,11 +419,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="23" width="1440" height="797" extended-state="1" />
+    <frame x="0" y="24" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21816881" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21816881" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -313,14 +431,14 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39574468" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.14468086" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.36737588" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -352,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -380,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/BmiFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="45" column="26" selection-start-line="42" selection-start-column="8" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/BottomButtons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -394,31 +498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeGoalFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/ProfilePicAndName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChoicesDesignedFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -436,29 +519,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/NewUserActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2148">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="-2365">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
+            <element signature="e#946#1143#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeProfileFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/WeatherDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-431">
-          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="-24">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/UserTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-949">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#1843#1844#0" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1912#1913#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2108#2109#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2205#2206#0" expanded="true" />
+            <element signature="e#2235#2236#0" expanded="true" />
+            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#2299#2300#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Room/WeatherDataTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/BmiFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="69" column="58" lean-forward="true" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChoicesDesignedFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/WeatherFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="354" column="6" selection-start-line="354" selection-start-column="6" selection-end-line="354" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ReviewFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="1443">
+          <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/example/nicolemorris/lifestyle/Room/UserDao_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeProfileFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="300" column="51" selection-start-line="300" selection-start-column="51" selection-end-line="300" selection-end-column="51" />
+          <folding>
+            <element signature="e#5406#7665#0" expanded="true" />
+            <element signature="e#7664#7665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/Model/UserRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#1835#2491#0" expanded="true" />
+            <element signature="e#2490#2491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/ChangeGoalFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="104" column="48" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/nicolemorris/lifestyle/GoalsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1857">
+          <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+          <folding>
+            <element signature="e#4696#5076#0" expanded="true" />
+            <element signature="e#5075#5076#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -20,6 +20,7 @@ MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huizhou/.gradl
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/072b344381f0227679ab9ff288809b6a/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e9a5a586c1d50b6fc9a947704548d1bc/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -37,7 +38,9 @@ MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/huizhou/.gradle/
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/9403b198b8afe4b102d07c4886ca21c9/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5604fc809a66d0a03154a7cdf7824338/core-runtime-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5fa9083dab59ec66a8e8d2104bc9b94b/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/a7fe82364247c45122c7fd1113a3991b/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -101,6 +104,8 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizho
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e5d386f6e25bce9d50afbfa94472541a/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e5d386f6e25bce9d50afbfa94472541a/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.core:core:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/144fdb6eac090fb35b1d84279c68b489/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
@@ -193,6 +198,8 @@ MERGED from [androidx.loader:loader:1.0.0] /Users/huizhou/.gradle/caches/transfo
 MERGED from [androidx.loader:loader:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/072b344381f0227679ab9ff288809b6a/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/072b344381f0227679ab9ff288809b6a/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e9a5a586c1d50b6fc9a947704548d1bc/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e9a5a586c1d50b6fc9a947704548d1bc/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:20:5-44
@@ -227,8 +234,12 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huizhou/.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5604fc809a66d0a03154a7cdf7824338/core-runtime-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5604fc809a66d0a03154a7cdf7824338/core-runtime-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5fa9083dab59ec66a8e8d2104bc9b94b/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5fa9083dab59ec66a8e8d2104bc9b94b/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/a7fe82364247c45122c7fd1113a3991b/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/a7fe82364247c45122c7fd1113a3991b/sqlite-2.0.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
@@ -261,6 +272,12 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:26:13-74
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
 	android:authorities

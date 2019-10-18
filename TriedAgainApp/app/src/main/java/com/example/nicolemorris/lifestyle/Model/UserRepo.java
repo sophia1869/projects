@@ -4,14 +4,18 @@ import android.app.Application;
 import android.content.Context;
 import android.os.AsyncTask;
 
+import com.example.nicolemorris.lifestyle.MainActivity;
+import com.example.nicolemorris.lifestyle.Room.UserTable;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.util.List;
 import java.util.Scanner;
 
 import androidx.lifecycle.MutableLiveData;
 
-import static android.content.Context.MODE_APPEND;
+import static com.example.nicolemorris.lifestyle.MainActivity.db;
 
 public class UserRepo {
     private final MutableLiveData<User> jsonData = new MutableLiveData<User>();
@@ -55,14 +59,32 @@ public class UserRepo {
 
 
     public static void saveUserProfile(Context context, User user){
-        try {
-            out = context.openFileOutput(fileName, MODE_APPEND);
-            String fileContents = serializeUser(user);
-            out.write(fileContents.getBytes());
-            out.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            out = context.openFileOutput(fileName, MODE_APPEND);
+//            String fileContents = serializeUser(user);
+//            out.write(fileContents.getBytes());
+//            out.close();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+        new AsyncTask<User, Void, Void>(){
+            @Override
+            protected Void doInBackground(User... users) {
+                UserTable ut = new UserTable();
+                ut.setName(users[0].name);
+                ut.setAge(users[0].age);
+                ut.setFeet(users[0].feet);
+                ut.setInches(users[0].inches);
+                ut.setCity(users[0].city);
+                ut.setState(users[0].state);
+                ut.setWeight(users[0].weight);
+                ut.setSex(users[0].sex);
+                ut.setUri(users[0].uri);
+                db.userDao().inserUserTable(ut);
+                return null;
+            }
+        }.execute(user);
+
 
     }
 
@@ -74,32 +96,51 @@ public class UserRepo {
 
 
     public static void updateUserProfile(Context context, User user){
-        try {
-            in = context.openFileInput(fileName);
-            String temp = "";
-            Scanner sc = new Scanner((InputStream)in);
-            while(sc.hasNextLine()){
-                String next = sc.nextLine();
-                String currName = next.substring(0, next.indexOf(","));
-                if(user.getName().equals(currName)){
-                    temp += serializeUser(user);
-                    if(sc.hasNextLine()){
-                        temp+="\n";
-                    }
-                }else{
-                    temp += next;
-                    if(sc.hasNextLine()){
-                        temp+="\n";
-                    }
-                }
+//        try {
+//            in = context.openFileInput(fileName);
+//            String temp = "";
+//            Scanner sc = new Scanner((InputStream)in);
+//            while(sc.hasNextLine()){
+//                String next = sc.nextLine();
+//                String currName = next.substring(0, next.indexOf(","));
+//                if(user.getName().equals(currName)){
+//                    temp += serializeUser(user);
+//                    if(sc.hasNextLine()){
+//                        temp+="\n";
+//                    }
+//                }else{
+//                    temp += next;
+//                    if(sc.hasNextLine()){
+//                        temp+="\n";
+//                    }
+//                }
+//            }
+//            out = context.openFileOutput(fileName, Context.MODE_PRIVATE);
+//            out.write(temp.getBytes());
+//            out.close();
+//            in.close();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+
+        new AsyncTask<User, Void, Void>(){
+            @Override
+            protected Void doInBackground(User... users) {
+                UserTable ut = new UserTable();
+                ut.setName(users[0].name);
+                ut.setAge(users[0].age);
+                ut.setFeet(users[0].feet);
+                ut.setInches(users[0].inches);
+                ut.setCity(users[0].city);
+                ut.setState(users[0].state);
+                ut.setWeight(users[0].weight);
+                ut.setSex(users[0].sex);
+                ut.setUri(users[0].uri);
+                db.userDao().inserUserTable(ut);
+                return null;
             }
-            out = context.openFileOutput(fileName, Context.MODE_PRIVATE);
-            out.write(temp.getBytes());
-            out.close();
-            in.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        }.execute(user);
+
     }
 
 
@@ -126,5 +167,10 @@ public class UserRepo {
             return null;
         }
 
+//        List<UserTable> uts = db.userDao().getAll();
+//        if(uts==null || uts.size()==0) return new User("Name",0,0,0,"city","state",0,"sex","uri");
+//        UserTable ut = uts.get(uts.size()-1);
+//        return new User(ut.getName(),ut.getAge(),ut.getFeet(),ut.getInches(),ut.getCity(),ut.getState(),ut.getWeight(),ut.getSex(),ut.getUri());
     }
+
 }

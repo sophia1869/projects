@@ -17,6 +17,7 @@ import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -32,7 +33,9 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.nicolemorris.lifestyle.Model.User;
+import com.example.nicolemorris.lifestyle.Model.UserRepo;
 import com.example.nicolemorris.lifestyle.Model.UserViewModel;
+import com.example.nicolemorris.lifestyle.Room.UserTable;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -40,6 +43,8 @@ import java.io.InputStream;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Scanner;
+
+import static com.example.nicolemorris.lifestyle.MainActivity.db;
 
 public class ChangeProfileFragment extends Fragment
         implements AdapterView.OnItemSelectedListener, View.OnClickListener {
@@ -58,7 +63,7 @@ public class ChangeProfileFragment extends Fragment
 
 
     User user;
-    ChangeProfileOnDataPass userDataPasser;
+    //ChangeProfileOnDataPass userDataPasser;
 
     DatePickerDialog picker;
 
@@ -66,30 +71,30 @@ public class ChangeProfileFragment extends Fragment
     private static final int REQUEST_LOCATION = 1;
     Double latitude, longitude;
 
-    FileOutputStream out;
-    FileInputStream in;
-
-    String fileName = "user_profile";
+//    FileOutputStream out;
+//    FileInputStream in;
+//
+//    String fileName = "user_profile";
 
     UserViewModel mUserViewModel;
 
     ArrayAdapter<CharSequence> num_adapter;
     ArrayAdapter<CharSequence> gender_adapter;
 
-    public interface ChangeProfileOnDataPass{
-        public void onChangeProfileDataPass(User user, int choice);
-    }
-
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-
-        try{
-            userDataPasser = (ChangeProfileOnDataPass) context;
-        }catch(ClassCastException e){
-            throw new ClassCastException(context.toString() + " must implement ChangeProfileOnDataPass");
-        }
-    }
+//    public interface ChangeProfileOnDataPass{
+//        public void onChangeProfileDataPass(User user, int choice);
+//    }
+//
+//    @Override
+//    public void onAttach(Context context) {
+//        super.onAttach(context);
+//
+//        try{
+//            userDataPasser = (ChangeProfileOnDataPass) context;
+//        }catch(ClassCastException e){
+//            throw new ClassCastException(context.toString() + " must implement ChangeProfileOnDataPass");
+//        }
+//    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -150,6 +155,8 @@ public class ChangeProfileFragment extends Fragment
 
         //Create the view model
         mUserViewModel = ViewModelProviders.of(this).get(UserViewModel.class);
+        mUserViewModel.setContext(getContext());
+
 
         //Set the observer
         mUserViewModel.getData().observe(this,userObserver);
@@ -207,7 +214,7 @@ public class ChangeProfileFragment extends Fragment
                     int genderPosition = gender_adapter.getPosition(sex);
                     s_sex.setSelection(genderPosition);
 
-                    image_uri = user.getUri();
+                    image_uri = user.getUri()==null? "https://www.petmd.com/sites/default/files/Acute-Dog-Diarrhea-47066074.jpg":user.getUri();
             }
         }
     };
@@ -256,7 +263,15 @@ public class ChangeProfileFragment extends Fragment
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.b_edit_pic: {
-                userDataPasser.onChangeProfileDataPass(user,8);
+//                userDataPasser.onChangeProfileDataPass(user,8);
+                FragmentTransaction fTrans = getActivity().getSupportFragmentManager().beginTransaction();
+                ProfilePicFragment ppf = new ProfilePicFragment();
+                Bundle sentData = new Bundle();
+                sentData.putParcelable("user",user);
+                ppf.setArguments(sentData);
+                fTrans.replace(R.id.fl_frag_ph_2,ppf,"Goals");
+                fTrans.commit();
+
                 break;
             }
             case R.id.b_save: {
@@ -279,11 +294,11 @@ public class ChangeProfileFragment extends Fragment
                 newWeight = Integer.parseInt(w1+w2+w3);
                 if(newWeight != 0) weight = newWeight;
                 if(user != null){
-                    String oldName = user.getName();
+                    //String oldName = user.getName();
                     user = new User(name, age, feet, inches, city, state, weight, sex, image_uri);
-                    updateUserProfile(user, oldName);
-                    //saveUserProfile(user);
+                     //updateUserProfile(user, oldName);
 
+                    UserRepo.saveUserProfile(getContext(),new User(name, age, feet, inches, city, state, weight, sex, image_uri));
 
                 } else {
                     user = new User(name, age, feet, inches, city, state, weight, sex, image_uri);
@@ -292,9 +307,16 @@ public class ChangeProfileFragment extends Fragment
 
 
                // saveUserProfile(user);
-                userDataPasser.onChangeProfileDataPass(user,9);
+                //userDataPasser.onChangeProfileDataPass(user,9);
 
+                FragmentTransaction fTrans = getActivity().getSupportFragmentManager().beginTransaction();
+                ReviewFragment rf = new ReviewFragment();
+                Bundle sentData = new Bundle();
 
+                sentData.putParcelable("user",user);
+                rf.setArguments(sentData);
+                fTrans.replace(R.id.fl_frag_ph_2,rf,"Goals");
+                fTrans.commit();
 
                 break;
             }
@@ -413,34 +435,35 @@ public class ChangeProfileFragment extends Fragment
         alertDialog.show();
     }
 
-    private void updateUserProfile(User user, String oldName){
-        try {
-            in = getActivity().openFileInput(fileName);
-            String temp = "";
-            Scanner sc = new Scanner((InputStream)in);
-            while(sc.hasNextLine()){
-                String next = sc.nextLine();
-                String currName = next.substring(0, next.indexOf(","));
-                if(oldName.equals(currName)){
-                    temp += serializeUser(user);
-                    if(sc.hasNextLine()){
-                        temp+="\n";
-                    }
-                }else{
-                    temp += next;
-                    if(sc.hasNextLine()){
-                        temp+="\n";
-                    }
-                }
-            }
-            out = getActivity().openFileOutput(fileName, Context.MODE_PRIVATE);
-            out.write(temp.getBytes());
-            out.close();
-            in.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+//    private void updateUserProfile(User user, String oldName){
+//        try {
+//            in = getActivity().openFileInput(fileName);
+//            String temp = "";
+//            Scanner sc = new Scanner((InputStream)in);
+//            while(sc.hasNextLine()){
+//                String next = sc.nextLine();
+//                String currName = next.substring(0, next.indexOf(","));
+//                if(oldName.equals(currName)){
+//                    temp += serializeUser(user);
+//                    if(sc.hasNextLine()){
+//                        temp+="\n";
+//                    }
+//                }else{
+//                    temp += next;
+//                    if(sc.hasNextLine()){
+//                        temp+="\n";
+//                    }
+//                }
+//            }
+//            out = getActivity().openFileOutput(fileName, Context.MODE_PRIVATE);
+//            out.write(temp.getBytes());
+//            out.close();
+//            in.close();
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
 
     public String serializeUser(User user){
         String content = user.getName()+","+user.getAge()+","+user.getFeet()+","+
@@ -453,16 +476,16 @@ public class ChangeProfileFragment extends Fragment
         return getResources().getBoolean(R.bool.isTablet);
     }
 
-    private void saveUserProfile(User user){
-        try {
-            out = getActivity().openFileOutput(fileName, Context.MODE_APPEND);
-            String fileContents = serializeUser(user);
-            out.write(fileContents.getBytes());
-            out.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
+//    private void saveUserProfile(User user){
+//        try {
+//            out = getActivity().openFileOutput(fileName, Context.MODE_APPEND);
+//            String fileContents = serializeUser(user);
+//            out.write(fileContents.getBytes());
+//            out.close();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//
+//    }
 
 }
