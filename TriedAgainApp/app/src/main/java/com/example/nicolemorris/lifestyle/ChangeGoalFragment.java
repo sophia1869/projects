@@ -27,7 +27,7 @@ import com.example.nicolemorris.lifestyle.Model.UserViewModel;
 public class ChangeGoalFragment extends Fragment
         implements AdapterView.OnItemSelectedListener, View.OnClickListener {
 
-//    ChangeGoalOnDataPass mDataPasser;
+    //ChangeGoalOnDataPass mDataPasser;
     Button bSetGoal;
     Spinner sGoal, sActLevel, sAmount;
     int goal; //0 = lose weight, 1 = maintain weight, 2 = gain weight
@@ -150,7 +150,7 @@ public class ChangeGoalFragment extends Fragment
                 System.out.println("Amount = " + weight_amt);
 
                 //Tell view data was saved
-//                mDataPasser.onChangeGoalDataPass(goal,act_level,weight_amt);
+                //mDataPasser.onChangeGoalDataPass(goal,act_level,weight_amt);
                 Log.e("ChangeGoalFrag", "goal, act_level, weitht: " + goal +"/" + act_level +"/" + weight_amt );
                 mUser.setGoal(goal, act_level,weight_amt);
                 MainActivity.hasGoal =true;

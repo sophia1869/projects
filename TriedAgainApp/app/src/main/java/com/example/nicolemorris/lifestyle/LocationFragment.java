@@ -11,15 +11,25 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.provider.Settings;
+
+import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.app.AlertDialog;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.nicolemorris.lifestyle.Model.User;
+import com.example.nicolemorris.lifestyle.Model.UserRepo;
+import com.example.nicolemorris.lifestyle.Model.UserViewModel;
 
 import java.util.List;
 import java.util.Locale;
@@ -34,6 +44,8 @@ public class LocationFragment extends Fragment implements View.OnClickListener{
 
     int REQUEST_LOCATION = 1;
     double latitude, longitude;
+
+    UserViewModel mUserViewModel;
 
     LocationOnDataPass mDataPasser;
 
@@ -67,8 +79,26 @@ public class LocationFragment extends Fragment implements View.OnClickListener{
         locate.setOnClickListener(this);
         next.setOnClickListener(this);
 
+        //create viewmodel
+        mUserViewModel = ViewModelProviders.of(this).get(UserViewModel.class);
+        mUserViewModel.setContext(getContext());
+
+        //Set the observer
+        mUserViewModel.getData().observe(this, userObserver);
+
         return view;
     }
+
+    final Observer<User> userObserver = new Observer<User>() {
+        @Override
+        public void onChanged(@Nullable final User user) {
+            // Update the UI if this data variable changes
+            if (user != null) {
+                city = user.getCity();
+                state = user.getState();
+            }
+        }
+    };
 
     @Override
     public void onClick(View view){
@@ -96,6 +126,7 @@ public class LocationFragment extends Fragment implements View.OnClickListener{
                     Toast.makeText(getContext(), "Please specify your location", Toast.LENGTH_SHORT).show();
                 }
                 mDataPasser.onLocationDataPass(location);
+
                 break;
             }
         }

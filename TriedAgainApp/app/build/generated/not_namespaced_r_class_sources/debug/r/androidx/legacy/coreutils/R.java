@@ -89,8 +89,8 @@ public final class R {
         public static final int forever = 0x7f090057;
         public static final int icon = 0x7f090073;
         public static final int icon_group = 0x7f090074;
-        public static final int info = 0x7f09007e;
-        public static final int italic = 0x7f090080;
+        public static final int info = 0x7f09007d;
+        public static final int italic = 0x7f09007f;
         public static final int line1 = 0x7f090085;
         public static final int line3 = 0x7f090086;
         public static final int normal = 0x7f090098;
@@ -104,8 +104,8 @@ public final class R {
         public static final int tag_unhandled_key_listeners = 0x7f0900d2;
         public static final int text = 0x7f0900d3;
         public static final int text2 = 0x7f0900d4;
-        public static final int time = 0x7f0900e0;
-        public static final int title = 0x7f0900e1;
+        public static final int time = 0x7f0900df;
+        public static final int title = 0x7f0900e0;
     }
     public static final class integer {
         private integer() {}

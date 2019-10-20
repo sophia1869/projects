@@ -856,7 +856,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView2
 id imageView3
 id imageView4
 id imageView5
@@ -866,6 +865,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id iv_heart
 id iv_profile
 id left
 id light
@@ -951,7 +951,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id textView1
 id textView2
 id textView3
@@ -1007,6 +1006,7 @@ id tv_state_hc_revf
 id tv_subtitle
 id tv_temp_d
 id tv_temp_hc
+id tv_title
 id tv_weight
 id tv_weight_d_revf
 id tv_weight_hc_revf

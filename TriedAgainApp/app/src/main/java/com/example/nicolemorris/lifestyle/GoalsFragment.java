@@ -35,7 +35,7 @@ public class GoalsFragment extends Fragment
     //GoalsOnDataPass mDataPasser;
     Button bChangeGoal;
     TextView tvCalAmt, tvGoalTxt, tvGoalAmt, tvGoalHC;
-//    int user_weight = 72; //Weight of user
+    //    int user_weight = 72; //Weight of user
 //    int user_height = 175; //Height of user
 //    boolean userIsMale = true; //Male or female
 //    int user_age = 27; //Age of user

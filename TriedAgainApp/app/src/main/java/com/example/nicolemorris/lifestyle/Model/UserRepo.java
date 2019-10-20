@@ -55,7 +55,15 @@ public class UserRepo {
         }.execute(mContext);
     }
 
+    public static void saveUserLocation(String city, String state){
+        new AsyncTask<String,String,Void>(){
 
+            @Override
+            protected Void doInBackground(String... strings) {
+                return null;
+            }
+        }.execute();
+    }
 
 
     public static void saveUserProfile(Context context, User user){
@@ -84,7 +92,6 @@ public class UserRepo {
                 return null;
             }
         }.execute(user);
-
 
     }
 

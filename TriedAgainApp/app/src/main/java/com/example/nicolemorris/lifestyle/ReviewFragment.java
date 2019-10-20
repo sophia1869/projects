@@ -126,6 +126,8 @@ public class ReviewFragment extends Fragment
         switch(view.getId()){
             case R.id.b_edit_profile_revf:{
                 mDataPasser.onReviewDataPass();
+
+
                 break;
             }
 

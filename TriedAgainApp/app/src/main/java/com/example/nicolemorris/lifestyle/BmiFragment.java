@@ -71,12 +71,16 @@ public class BmiFragment extends Fragment {
             // Update the UI if this data variable changes
             if (user != null) {
                 weight = user.getWeight();
+                String name = user.getName();
                 height = user.getHeight();
+
+                Log.e("name" ,"" + user.getName());
+                Log.e("weight", "" + weight);
 
                 //Calculate bmi in kg/m^2 (weight x height^2 x 703)
                 //Note: 703 is the conversion from lbs/in^2 to kg/m^2
                 bmi_result = weight / (height * height) * 703;
-
+                Log.e("BMI", "BMI" + bmi_result);
                 bmi_number.setText(Long.toString(Math.round(bmi_result)));
 
                 if (bmi_result < 18.5) {
