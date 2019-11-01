@@ -1,0 +1,386 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/2c6c92180058c66e00493c649cc15d98/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/40be50d77a6d16e1d294ccff29aa931f/jetified-play-services-location-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/78084ef42545632feb9caf1d3d09d370/jetified-play-services-base-15.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/0ea12cbeb4164436a77f67aaa5046d86/play-services-places-placereport-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/b27d0f0aabe4f5e30737442ccb476ecd/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e5d386f6e25bce9d50afbfa94472541a/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/25bfa9abbe57efa7109f3ed8175af34b/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/91a2e0650e476867729e44e6c1acc534/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/072b344381f0227679ab9ff288809b6a/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/a4149c14c6a0541f74c187cea3ca81af/aws-android-sdk-mobile-client-2.7.7/AndroidManifest.xml:2:1-6:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:2:1-17:80
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:2:1-10:80
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/b74cc8ac0c683e01295a1747932de08e/aws-android-sdk-auth-core-2.7.7/AndroidManifest.xml:2:1-4:80
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e9a5a586c1d50b6fc9a947704548d1bc/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/9b9140e118d7f4f83e504277c0661cb2/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/144fdb6eac090fb35b1d84279c68b489/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/22b9570a1ed0fca2142825daa9f62beb/lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/9403b198b8afe4b102d07c4886ca21c9/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5604fc809a66d0a03154a7cdf7824338/core-runtime-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5fa9083dab59ec66a8e8d2104bc9b94b/sqlite-framework-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/a7fe82364247c45122c7fd1113a3991b/sqlite-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:1-43:12
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:1-43:12
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:4:5-97
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:5:5-95
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:6:5-83
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:4:5-66
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:8:22-78
+uses-feature#android.hardware.camera
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:9:5-10:35
+	android:required
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:10:9-32
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:9:19-57
+application
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:12:5-41:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/40be50d77a6d16e1d294ccff29aa931f/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/40be50d77a6d16e1d294ccff29aa931f/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/78084ef42545632feb9caf1d3d09d370/jetified-play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/78084ef42545632feb9caf1d3d09d370/jetified-play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/0ea12cbeb4164436a77f67aaa5046d86/play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/0ea12cbeb4164436a77f67aaa5046d86/play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/b27d0f0aabe4f5e30737442ccb476ecd/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/b27d0f0aabe4f5e30737442ccb476ecd/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e5d386f6e25bce9d50afbfa94472541a/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e5d386f6e25bce9d50afbfa94472541a/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:24:5-28:19
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:8:6-16:20
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:8:6-16:20
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:7:5-9:19
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:7:5-9:19
+MERGED from [androidx.core:core:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/144fdb6eac090fb35b1d84279c68b489/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/144fdb6eac090fb35b1d84279c68b489/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:20:9-65
+	android:usesCleartextTraffic
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:13:9-44
+activity#com.example.nicolemorris.lifestyle.Activities.MainActivity
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:windowSoftInputMode
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:23:13-55
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:22:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.example.nicolemorris.lifestyle.Activities.NewUserActivity
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:30:9-33:67
+	android:windowSoftInputMode
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:33:13-55
+	android:theme
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:32:13-69
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:31:13-55
+activity#com.example.nicolemorris.lifestyle.Activities.HomeActivity
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:34:9-70
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:34:19-58
+meta-data#preloaded_fonts
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:36:9-38:57
+	android:resource
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:38:13-54
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:37:13-43
+service#com.amazonaws.mobileconnectors.s3.transferutility.TransferService
+ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:40:9-124
+	android:enabled
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:40:99-121
+	android:name
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml:40:18-98
+uses-sdk
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/2c6c92180058c66e00493c649cc15d98/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/2c6c92180058c66e00493c649cc15d98/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c1763829f79bc3811543d2bb9a22b866/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/40be50d77a6d16e1d294ccff29aa931f/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/40be50d77a6d16e1d294ccff29aa931f/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/78084ef42545632feb9caf1d3d09d370/jetified-play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/78084ef42545632feb9caf1d3d09d370/jetified-play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/0ea12cbeb4164436a77f67aaa5046d86/play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/0ea12cbeb4164436a77f67aaa5046d86/play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/b27d0f0aabe4f5e30737442ccb476ecd/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/b27d0f0aabe4f5e30737442ccb476ecd/jetified-play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1d93c655cdcaa19a3180f48e63f30b3d/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/99839343cfb353ec06147cc6109cf9b2/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e5d386f6e25bce9d50afbfa94472541a/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e5d386f6e25bce9d50afbfa94472541a/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/25bfa9abbe57efa7109f3ed8175af34b/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/25bfa9abbe57efa7109f3ed8175af34b/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/91a2e0650e476867729e44e6c1acc534/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/91a2e0650e476867729e44e6c1acc534/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/67e3a22614326cadf216274f01d6d423/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/984e9edaa0792ad5f44429be517dd8ee/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/072b344381f0227679ab9ff288809b6a/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/072b344381f0227679ab9ff288809b6a/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/a4149c14c6a0541f74c187cea3ca81af/aws-android-sdk-mobile-client-2.7.7/AndroidManifest.xml:4:5-73
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/a4149c14c6a0541f74c187cea3ca81af/aws-android-sdk-mobile-client-2.7.7/AndroidManifest.xml:4:5-73
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:17:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:17:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:10:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:10:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/b74cc8ac0c683e01295a1747932de08e/aws-android-sdk-auth-core-2.7.7/AndroidManifest.xml:4:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/b74cc8ac0c683e01295a1747932de08e/aws-android-sdk-auth-core-2.7.7/AndroidManifest.xml:4:1-69
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e9a5a586c1d50b6fc9a947704548d1bc/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e9a5a586c1d50b6fc9a947704548d1bc/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7201af0ac6a1eb782d2b896d1ec4242/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/cbfe81a657ef2afb513a6ca64388f844/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/985ff358bb91108c25d3fd24361b35b6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/9b9140e118d7f4f83e504277c0661cb2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/9b9140e118d7f4f83e504277c0661cb2/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7b3b7b721ad53547c0e35001526b3ae3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/144fdb6eac090fb35b1d84279c68b489/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/144fdb6eac090fb35b1d84279c68b489/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/22b9570a1ed0fca2142825daa9f62beb/lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/22b9570a1ed0fca2142825daa9f62beb/lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/9403b198b8afe4b102d07c4886ca21c9/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/9403b198b8afe4b102d07c4886ca21c9/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5604fc809a66d0a03154a7cdf7824338/core-runtime-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5604fc809a66d0a03154a7cdf7824338/core-runtime-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5fa9083dab59ec66a8e8d2104bc9b94b/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/5fa9083dab59ec66a8e8d2104bc9b94b/sqlite-framework-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/a7fe82364247c45122c7fd1113a3991b/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/a7fe82364247c45122c7fd1113a3991b/sqlite-2.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8506ddbc1ed30380944ad7f0369e4760/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/35d6382087ac1999db47004e3bf24934/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/8893b90c6f2a61edd1acfa898cb4cde1/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huizhou/6018/Lifestyle_Android_App/TriedAgainApp/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/78084ef42545632feb9caf1d3d09d370/jetified-play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/78084ef42545632feb9caf1d3d09d370/jetified-play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/78084ef42545632feb9caf1d3d09d370/jetified-play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/78084ef42545632feb9caf1d3d09d370/jetified-play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/be82b42dbce425cdd6d492c84cd89d2c/jetified-play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/1e99c14c9441faae30083380f6200d97/room-runtime-2.2.0/AndroidManifest.xml:26:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:5:5-78
+MERGED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:6:22-73
+activity#com.amazonaws.mobile.auth.userpools.ForceChangePasswordActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:9:10-269
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:9:231-267
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:9:91-151
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:9:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:9:152-230
+activity#com.amazonaws.mobile.auth.userpools.ForgotPasswordActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:10:10-258
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:10:220-256
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:10:91-145
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:10:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:10:146-219
+activity#com.amazonaws.mobile.auth.userpools.SignUpActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:11:10-242
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:11:204-240
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:11:91-137
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:11:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:11:138-203
+activity#com.amazonaws.mobile.auth.userpools.MFAActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:13:10-235
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:13:197-233
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:13:91-133
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:13:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:13:134-196
+activity#com.amazonaws.mobile.auth.userpools.SignUpConfirmActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:15:10-257
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:15:219-255
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:15:91-145
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:15:20-90
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-userpools:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/ba8e617ddd87073edf71cb2fec7ae97d/jetified-aws-android-sdk-auth-userpools-2.7.7/AndroidManifest.xml:15:146-218
+activity#com.amazonaws.mobile.auth.ui.SignInActivity
+ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:8:9-234
+	android:screenOrientation
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:8:196-232
+	android:label
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:8:90-136
+	android:configChanges
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:8:19-89
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-auth-ui:2.7.7] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/991dc9b9d319731f6fd4f6d12065fd42/jetified-aws-android-sdk-auth-ui-2.7.7/AndroidManifest.xml:8:137-195
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/huizhou/.gradle/caches/transforms-2/files-2.1/7309f8169174f11110ad56440ca8f929/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
